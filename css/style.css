@@ -102,6 +102,11 @@ nav {
     grid-template-rows: 1fr;
 }
 
+.obra-index:hover {
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
+}
+
 /*grid para "¿Quién soy?"*/
 
 .bio-grid {
@@ -152,6 +157,11 @@ nav {
     max-height: 180px;
     filter: drop-shadow(4px 4px 4px rgb(114, 114, 114));
     border-radius: 10px;
+}
+
+.obra:hover {
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
 }
 
 .obra-index {
