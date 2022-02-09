@@ -161,7 +161,7 @@ nav {
 
 .obra:hover {
     transform: scale(0.9);
-    transition: .5s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 .obra-index {
