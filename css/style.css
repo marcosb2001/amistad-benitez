@@ -21,7 +21,8 @@ h1{
 
     font-family: 'Helvetica Neue', sans-serif;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 100;
+    font-size: 1.6em;
 
     background: linear-gradient(0deg, rgb(175, 175, 175) 0%, rgba(255, 255, 255, 0) 50%);   
 }
