@@ -11,6 +11,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    margin: 0;
+}
+
+.header-gradient {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgb(206, 188, 153) 70%, rgb(206, 188, 153) 100%); 
 }
 
 h1{
