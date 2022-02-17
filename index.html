@@ -11,56 +11,51 @@
 <body>
 
     <header>
-
-        <!--section para la gradiente del header-->
         <section class="header-gradient">
-
-        <!--botón home-->
-        <div class="home-a"><a href="index.html">
-            <img class="home" src="images/logo.png" alt="logo">
-        </a></div>
-
-        <!--descripción corta-->
-        <section class="descripcion">
-            Amistad - Portfolio web
+            <!--navegación-->
+            <nav >
+                <!--botón home-->
+                <a class="menu-item" href="../index.html">
+                    <img class="home" src="images/logo.png" alt="logo">
+                </a>
+                <ul class="menu-container">
+                    <li class="menu-item">
+                        <a href="pages/bio.html">¿Quién soy?</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pages/obras.html">Obras y proyectos</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pages/galerias.html">Galerías y entrevistas</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
-        
-        </section> <!--fin gradiente-->
-
-        <!--navegación-->
-        <nav class="navegacion">
-            <ul>
-                <li>
-                    <a href="pages/bio.html">¿Quién soy?</a>
-                </li>
-
-                <li>
-                    <a href="pages/obras.html">Obras y proyectos</a>
-                </li>
-
-                <li>
-                    <a href="pages/galerias.html">Galerías y entrevistas</a>
-                </li>
-
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>  
     </header>
 
     <main>
 
+        <h1>
+            Bienvenidos
+        </h1>
 
+        <p class="center-txt">"Amistad" portfolio online y galería virtual</p>
 
 
         <!--mini galería-->
-        <section class="galeria">
-            <img class="obra-index" src="images/art/horse3.png" alt="foto 1">
-
-            <img class="obra-index" src="images/art/fatalis.png" alt="foto 2">
-
-            <img class="obra-index" src="images/art/gclef.png" alt="foto 3">
+        <section class="galeria-container">
+            <div class="galeria">
+                <div class="index-grid">
+                    <img class="obra-index" src="images/art/horse3.png" alt="foto 1">
+                
+                    <img class="obra-index" src="images/art/fatalis.png" alt="foto 2">
+                                
+                    <img class="obra-index" src="images/art/gclef.png" alt="foto 3">
+                </div>
+            </div>
         </section>
           
     </main>
