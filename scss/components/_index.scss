@@ -1,0 +1,25 @@
+/*grid para index*/
+
+.obra-index {
+    max-width: 220px;
+    margin: 3px 20px;
+    max-height: 220px;
+    filter: drop-shadow(4px 4px 4px rgb(114, 114, 114));
+    border-radius: 10px;
+
+    &:hover {
+        transform: scale(0.9);
+        transition: .5s ease-in-out;
+    }
+}
+
+.index-grid {
+    width: 80%;
+    margin: 20px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+}

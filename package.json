@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "coderhouse 24490 desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosb2001/amistad-benitez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosb2001/amistad-benitez/issues"
+  },
+  "homepage": "https://github.com/marcosb2001/amistad-benitez#readme"
+}
