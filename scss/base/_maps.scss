@@ -1,0 +1,10 @@
+
+@import "variables";
+
+$body: ( /*parentesis*/
+/*key + valor*/
+body-bg: linear-gradient(0deg, nth($colores, 1) 0%, nth($colores, 4) 40%),
+body-height: 10%,
+body-margin: 0,
+)
+

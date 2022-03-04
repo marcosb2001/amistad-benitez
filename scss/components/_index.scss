@@ -1,17 +1,16 @@
-/*grid para index*/
+/* estilos y grid para index*/
+@import "../base/mixins";
 
 .obra-index {
-    max-width: 220px;
-    margin: 3px 20px;
-    max-height: 220px;
-    filter: drop-shadow(4px 4px 4px rgb(114, 114, 114));
-    border-radius: 10px;
+    @include obraindex(220px, 3px 20px, 220px, drop-shadow(4px 4px 4px rgb(114, 114, 114)), 10px);
 
     &:hover {
         transform: scale(0.9);
         transition: .5s ease-in-out;
     }
 }
+
+
 
 .index-grid {
     width: 80%;
